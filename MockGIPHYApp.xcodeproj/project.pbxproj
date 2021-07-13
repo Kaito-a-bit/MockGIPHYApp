@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12C34D13269D2E5C00EA1403 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C34D12269D2E5C00EA1403 /* AppDelegate.swift */; };
+		12C34D15269D2E5C00EA1403 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C34D14269D2E5C00EA1403 /* SceneDelegate.swift */; };
+		12C34D17269D2E5C00EA1403 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C34D16269D2E5C00EA1403 /* ViewController.swift */; };
+		12C34D1A269D2E5C00EA1403 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12C34D18269D2E5C00EA1403 /* Main.storyboard */; };
+		12C34D1C269D2E5E00EA1403 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12C34D1B269D2E5E00EA1403 /* Assets.xcassets */; };
+		12C34D1F269D2E5E00EA1403 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12C34D1D269D2E5E00EA1403 /* LaunchScreen.storyboard */; };
+		12C34D2A269D2E5E00EA1403 /* MockGIPHYAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C34D29269D2E5E00EA1403 /* MockGIPHYAppTests.swift */; };
+		12C34D35269D2E5E00EA1403 /* MockGIPHYAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C34D34269D2E5E00EA1403 /* MockGIPHYAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		12C34D26269D2E5E00EA1403 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12C34D07269D2E5C00EA1403 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12C34D0E269D2E5C00EA1403;
+			remoteInfo = MockGIPHYApp;
+		};
+		12C34D31269D2E5E00EA1403 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12C34D07269D2E5C00EA1403 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12C34D0E269D2E5C00EA1403;
+			remoteInfo = MockGIPHYApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12C34D0F269D2E5C00EA1403 /* MockGIPHYApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MockGIPHYApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12C34D12269D2E5C00EA1403 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		12C34D14269D2E5C00EA1403 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		12C34D16269D2E5C00EA1403 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		12C34D19269D2E5C00EA1403 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		12C34D1B269D2E5E00EA1403 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		12C34D1E269D2E5E00EA1403 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		12C34D20269D2E5E00EA1403 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12C34D25269D2E5E00EA1403 /* MockGIPHYAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MockGIPHYAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12C34D29269D2E5E00EA1403 /* MockGIPHYAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockGIPHYAppTests.swift; sourceTree = "<group>"; };
+		12C34D2B269D2E5E00EA1403 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12C34D30269D2E5E00EA1403 /* MockGIPHYAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MockGIPHYAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12C34D34269D2E5E00EA1403 /* MockGIPHYAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockGIPHYAppUITests.swift; sourceTree = "<group>"; };
+		12C34D36269D2E5E00EA1403 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12C34D0C269D2E5C00EA1403 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12C34D22269D2E5E00EA1403 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12C34D2D269D2E5E00EA1403 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12C34D06269D2E5C00EA1403 = {
+			isa = PBXGroup;
+			children = (
+				12C34D11269D2E5C00EA1403 /* MockGIPHYApp */,
+				12C34D28269D2E5E00EA1403 /* MockGIPHYAppTests */,
+				12C34D33269D2E5E00EA1403 /* MockGIPHYAppUITests */,
+				12C34D10269D2E5C00EA1403 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		12C34D10269D2E5C00EA1403 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12C34D0F269D2E5C00EA1403 /* MockGIPHYApp.app */,
+				12C34D25269D2E5E00EA1403 /* MockGIPHYAppTests.xctest */,
+				12C34D30269D2E5E00EA1403 /* MockGIPHYAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12C34D11269D2E5C00EA1403 /* MockGIPHYApp */ = {
+			isa = PBXGroup;
+			children = (
+				12C34D12269D2E5C00EA1403 /* AppDelegate.swift */,
+				12C34D14269D2E5C00EA1403 /* SceneDelegate.swift */,
+				12C34D16269D2E5C00EA1403 /* ViewController.swift */,
+				12C34D18269D2E5C00EA1403 /* Main.storyboard */,
+				12C34D1B269D2E5E00EA1403 /* Assets.xcassets */,
+				12C34D1D269D2E5E00EA1403 /* LaunchScreen.storyboard */,
+				12C34D20269D2E5E00EA1403 /* Info.plist */,
+			);
+			path = MockGIPHYApp;
+			sourceTree = "<group>";
+		};
+		12C34D28269D2E5E00EA1403 /* MockGIPHYAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				12C34D29269D2E5E00EA1403 /* MockGIPHYAppTests.swift */,
+				12C34D2B269D2E5E00EA1403 /* Info.plist */,
+			);
+			path = MockGIPHYAppTests;
+			sourceTree = "<group>";
+		};
+		12C34D33269D2E5E00EA1403 /* MockGIPHYAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				12C34D34269D2E5E00EA1403 /* MockGIPHYAppUITests.swift */,
+				12C34D36269D2E5E00EA1403 /* Info.plist */,
+			);
+			path = MockGIPHYAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12C34D0E269D2E5C00EA1403 /* MockGIPHYApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12C34D39269D2E5E00EA1403 /* Build configuration list for PBXNativeTarget "MockGIPHYApp" */;
+			buildPhases = (
+				12C34D0B269D2E5C00EA1403 /* Sources */,
+				12C34D0C269D2E5C00EA1403 /* Frameworks */,
+				12C34D0D269D2E5C00EA1403 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MockGIPHYApp;
+			productName = MockGIPHYApp;
+			productReference = 12C34D0F269D2E5C00EA1403 /* MockGIPHYApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		12C34D24269D2E5E00EA1403 /* MockGIPHYAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12C34D3C269D2E5E00EA1403 /* Build configuration list for PBXNativeTarget "MockGIPHYAppTests" */;
+			buildPhases = (
+				12C34D21269D2E5E00EA1403 /* Sources */,
+				12C34D22269D2E5E00EA1403 /* Frameworks */,
+				12C34D23269D2E5E00EA1403 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12C34D27269D2E5E00EA1403 /* PBXTargetDependency */,
+			);
+			name = MockGIPHYAppTests;
+			productName = MockGIPHYAppTests;
+			productReference = 12C34D25269D2E5E00EA1403 /* MockGIPHYAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		12C34D2F269D2E5E00EA1403 /* MockGIPHYAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12C34D3F269D2E5E00EA1403 /* Build configuration list for PBXNativeTarget "MockGIPHYAppUITests" */;
+			buildPhases = (
+				12C34D2C269D2E5E00EA1403 /* Sources */,
+				12C34D2D269D2E5E00EA1403 /* Frameworks */,
+				12C34D2E269D2E5E00EA1403 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12C34D32269D2E5E00EA1403 /* PBXTargetDependency */,
+			);
+			name = MockGIPHYAppUITests;
+			productName = MockGIPHYAppUITests;
+			productReference = 12C34D30269D2E5E00EA1403 /* MockGIPHYAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12C34D07269D2E5C00EA1403 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					12C34D0E269D2E5C00EA1403 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					12C34D24269D2E5E00EA1403 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 12C34D0E269D2E5C00EA1403;
+					};
+					12C34D2F269D2E5E00EA1403 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 12C34D0E269D2E5C00EA1403;
+					};
+				};
+			};
+			buildConfigurationList = 12C34D0A269D2E5C00EA1403 /* Build configuration list for PBXProject "MockGIPHYApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 12C34D06269D2E5C00EA1403;
+			productRefGroup = 12C34D10269D2E5C00EA1403 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12C34D0E269D2E5C00EA1403 /* MockGIPHYApp */,
+				12C34D24269D2E5E00EA1403 /* MockGIPHYAppTests */,
+				12C34D2F269D2E5E00EA1403 /* MockGIPHYAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12C34D0D269D2E5C00EA1403 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12C34D1F269D2E5E00EA1403 /* LaunchScreen.storyboard in Resources */,
+				12C34D1C269D2E5E00EA1403 /* Assets.xcassets in Resources */,
+				12C34D1A269D2E5C00EA1403 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12C34D23269D2E5E00EA1403 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12C34D2E269D2E5E00EA1403 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12C34D0B269D2E5C00EA1403 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12C34D17269D2E5C00EA1403 /* ViewController.swift in Sources */,
+				12C34D13269D2E5C00EA1403 /* AppDelegate.swift in Sources */,
+				12C34D15269D2E5C00EA1403 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12C34D21269D2E5E00EA1403 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12C34D2A269D2E5E00EA1403 /* MockGIPHYAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12C34D2C269D2E5E00EA1403 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12C34D35269D2E5E00EA1403 /* MockGIPHYAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12C34D27269D2E5E00EA1403 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12C34D0E269D2E5C00EA1403 /* MockGIPHYApp */;
+			targetProxy = 12C34D26269D2E5E00EA1403 /* PBXContainerItemProxy */;
+		};
+		12C34D32269D2E5E00EA1403 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12C34D0E269D2E5C00EA1403 /* MockGIPHYApp */;
+			targetProxy = 12C34D31269D2E5E00EA1403 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		12C34D18269D2E5C00EA1403 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12C34D19269D2E5C00EA1403 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		12C34D1D269D2E5E00EA1403 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12C34D1E269D2E5E00EA1403 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		12C34D37269D2E5E00EA1403 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		12C34D38269D2E5E00EA1403 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12C34D3A269D2E5E00EA1403 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MockGIPHYApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kaito-Arai.MockGIPHYApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		12C34D3B269D2E5E00EA1403 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MockGIPHYApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kaito-Arai.MockGIPHYApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		12C34D3D269D2E5E00EA1403 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MockGIPHYAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kaito-Arai.MockGIPHYAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MockGIPHYApp.app/MockGIPHYApp";
+			};
+			name = Debug;
+		};
+		12C34D3E269D2E5E00EA1403 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MockGIPHYAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kaito-Arai.MockGIPHYAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MockGIPHYApp.app/MockGIPHYApp";
+			};
+			name = Release;
+		};
+		12C34D40269D2E5E00EA1403 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MockGIPHYAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kaito-Arai.MockGIPHYAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MockGIPHYApp;
+			};
+			name = Debug;
+		};
+		12C34D41269D2E5E00EA1403 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MockGIPHYAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kaito-Arai.MockGIPHYAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MockGIPHYApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12C34D0A269D2E5C00EA1403 /* Build configuration list for PBXProject "MockGIPHYApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12C34D37269D2E5E00EA1403 /* Debug */,
+				12C34D38269D2E5E00EA1403 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12C34D39269D2E5E00EA1403 /* Build configuration list for PBXNativeTarget "MockGIPHYApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12C34D3A269D2E5E00EA1403 /* Debug */,
+				12C34D3B269D2E5E00EA1403 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12C34D3C269D2E5E00EA1403 /* Build configuration list for PBXNativeTarget "MockGIPHYAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12C34D3D269D2E5E00EA1403 /* Debug */,
+				12C34D3E269D2E5E00EA1403 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12C34D3F269D2E5E00EA1403 /* Build configuration list for PBXNativeTarget "MockGIPHYAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12C34D40269D2E5E00EA1403 /* Debug */,
+				12C34D41269D2E5E00EA1403 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12C34D07269D2E5C00EA1403 /* Project object */;
+}
